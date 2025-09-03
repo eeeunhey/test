@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  frontend:
+    build: ./frontend/Ai_Interview
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend/Ai_Interview:/app
+      - /app/node_modules
+    command: npm run dev -- --host
