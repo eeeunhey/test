@@ -7,6 +7,8 @@ import SignUp from "./pages/auth/SignUp";
 import LandingPage from "./pages/LandingPage";
 import SessionDetail from "./pages/Reports/SessionDetail";
 
+import RecordPage from "./pages/interview/RecordPage";
+
 
 
 const App = () => {
@@ -18,7 +20,9 @@ const App = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/mypage" element={<MyPage />} />
+
                 <Route path="/session/:id" element={<SessionDetail />} />
+                <Route path="/RecordPage" element={<RecordPage/>}/>
               </Routes>
             </Router>
 

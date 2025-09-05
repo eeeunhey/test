@@ -1,7 +1,7 @@
 // src/pages/Auth/MyPage.jsx
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Modal from "../../components/inputs/Modal";
+import Modal from "../../components/Modal";
 
 
 // --- 더미 카드 데이터 ---
